@@ -393,3 +393,7 @@ position: absolute;
   display: flex;
   transition: 0.6s ease-out;
 }
+
+.exploreBtn{
+  max-width: 250px !important;
+}

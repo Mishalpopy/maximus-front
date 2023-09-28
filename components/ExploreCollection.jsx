@@ -54,7 +54,10 @@ const ProductList = () => {
       <p className='section_subHeading text-sm mb-2'>Explore Our</p>
       <h2 className='section_heading text-sm-xs mt-2'>SAINT MAXIMUS <br></br>COLLECTION</h2>
       <p className=' text-sm-desc mt-2 mb-9'>Check outer exclusive line Saint Maximus.</p>
-      <ButtonBlack  />
+      <button className='flex w-1/9 lg:w-1/6 mt-9 rounded-none border-black border border-solid ease-in duration-300 bg-gray-950 pt-[3px] pr-[35px] lg:pr-[10px] pl-[35px] lg:pl-[10px] pb-[3px] justify-center text-baseBtn text-center  text-white hover:bg-slate-50 hover:text-black'>
+
+<p>READ MORE</p>
+</button>
       </div>
     
       <div className="bg-white">
