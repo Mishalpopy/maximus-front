@@ -18,9 +18,7 @@ const AbtBannerTop = () => {
       <h2 className='section_heading_shopFor text-sm-xs'>ABOUT US</h2>
      
        
-      <button className='btnWhite'>
-        Read More
-      </button>
+
       </div>
     </div>
 

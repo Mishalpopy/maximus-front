@@ -43,21 +43,19 @@ const ProductList = () => {
   ]
   
   return (
-    <div className='exploreCollectionSec pb-12 lg:pb-16  bg-white'>
-            <div className='min-h-screen flex bg-gray-100 bg-white'>
-            <div className='w-1/2 flex bg-white' style={exploreCollectionImgBanner}>
+    <div className='exploreCollectionSec   bg-white'>
+            <div className='min-h-[80vh] flex bg-gray-100 bg-white'>
+            <div className='w-1/2 flex  bg-white' style={exploreCollectionImgBanner}>
 
             </div>
-            <div className="w-1/2   border-gray-900 border-t border-right bg-[url('https://abdulk30.sg-host.com/maximus/wp-content/uploads/2023/06/Saint-maximus-logo-watermark.png')] flex px-20 lg:px-9 border border-gray-200/25  " >
+            <div className="w-1/2 py-16  border-gray-900 border-t border-right bg-[url('https://abdulk30.sg-host.com/maximus/wp-content/uploads/2023/06/Saint-maximus-logo-watermark.png')] flex px-20 lg:px-9 border border-gray-200/25  " >
       <div className='flex flex-col justify-around ml-12'>
-      <div className='section_subHeading_start flex flex-col justify-between'>
+      <div className='section_subHeading_start flex flex-col justify-around py-9'>
       <p className='section_subHeading text-sm mb-2'>Explore Our</p>
       <h2 className='section_heading text-sm-xs mt-2'>SAINT MAXIMUS <br></br>COLLECTION</h2>
-      <p className=' text-sm-desc mt-2 mb-9'>Check outer exclusive line Saint Maximus.</p>
-      <button className='flex w-1/9 lg:w-1/6 mt-9 rounded-none border-black border border-solid ease-in duration-300 bg-gray-950 pt-[3px] pr-[35px] lg:pr-[10px] pl-[35px] lg:pl-[10px] pb-[3px] justify-center text-baseBtn text-center  text-white hover:bg-slate-50 hover:text-black'>
+      <p className=' text-sm-desc mt-2 mb-9'>Check outer exclusive line Saint Maximus.</p>  
+      <ButtonBlack />
 
-<p>READ MORE</p>
-</button>
       </div>
     
       <div className="bg-white">
@@ -75,7 +73,7 @@ const ProductList = () => {
               <h3 className="mt-4 text-proHeading text-gray-900">{product.name}</h3>
               <p className="text-proCate ">{product.availability}</p>
               <div className='flex justify-between z-50'>
-              <p className="mt-2 text-proPrice">{product.price}</p>
+              <p className="mt-2 text-Pricing">{product.price}</p>
          
               <svg xmlns="http://www.w3.org/2000/svg" className='hover:bg-gray-950 w-8 h-8 hover:text-white py-1.5 ease-in duration-200 rounded-full z-index-50' fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />

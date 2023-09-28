@@ -87,7 +87,7 @@ export function FooterWithSitemap() {
         <div className="mx-auto grid w-full   py-[46px]   grid-cols-8">
           {SITEMAP.map(({ title, links, input, button, colClasses }, key) => (
             <div key={key} className={`w-full ${colClasses}`}>
-              <Typography variant="large" color="white" className="mb-4 font-bold text-white text-1xl">
+              <Typography variant="large" color="white" className="mb-4 tracking-wider font-bold text-white text-1xl">
                 {title}
               </Typography>
 

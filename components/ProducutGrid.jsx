@@ -152,7 +152,7 @@
                   <div className="text-left px-9">
                     <h3 className="text-proHeading text-gray-900">
                       <a href={product.href}>
-                        <span aria-hidden="true" className="absolute inset-0" />
+                        <span aria-hidden="true" className="absolute inset-0 text-proHeading" />
                         {product.name}
                       </a>
                     </h3>
@@ -160,7 +160,7 @@
                       <p className="mt-3 text-gray-500 text-proCate">{product.reviewCount}</p>
                     </div>
                     <div className='flex justify-between z-20'>
-                      <p className="mt-3 text-proPrice text-gray-900">{product.price}</p>
+                      <p className="mt-3 text-Pricing text-gray-900">{product.price}</p>
                     </div>
                   </div>
                 </div>

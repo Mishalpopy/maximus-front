@@ -164,24 +164,24 @@ const FeatureTab = () => {
                    <img
                      src={product.imageSrc}
                      alt={product.imageAlt}
-                     className="h-[50vh] md:h-[40vh] w-[40wh] object-contain"
+                     className="h-[50vh] md:h-[35vh] w-[40wh] object-contain"
                    />
           
                    </div>
                    <img
                   src={product.imageSrc2}
                  
-                  className="h-[50vh] md:h-[40vh] w-[40wh] object-contain"
+                  className="h-[50vh] md:h-[35vh] w-[40wh] object-contain"
                 />
                            <img
                   src={product.imageSrc3}
                  
-                  className="h-[50vh] md:h-[40vh] w-[40wh] object-contain"
+                  className="h-[50vh] md:h-[35vh] w-[40wh] object-contain"
                 />
                            <img
                   src={product.imageSrc}
                  
-                  className="h-[50vh] md:h-[40vh] w-[40wh] object-contain"
+                  className="h-[50vh] md:h-[35vh] w-[40wh] object-contain"
                 />
 
       
@@ -191,7 +191,7 @@ const FeatureTab = () => {
                 <h3 className="text-proHeading slate-50">
                   <a href={product.href}>
                   <p className="mb-3 text-slate-50 text-proBrand">{product.brand}</p>      
-                    <span aria-hidden="true" className="absolute inset-0" />
+                    <span aria-hidden="true" className="absolute inset-0 text-proHeading" />
                     {product.name}
                     
                   </a>
@@ -201,7 +201,7 @@ const FeatureTab = () => {
                   <p className="mt-1 text-slate-50 text-proCate">{product.reviewCount}</p>
                 </div>
                 <div className='flex justify-between z-20 '>
-                  <p className="mt-4 text-proPrice slate-50">{product.price}</p>
+                  <p className="mt-4 text-proHeading slate-50">{product.price}</p>
                   <svg xmlns="http://www.w3.org/2000/svg" className='hover:bg-gray-50 w-[40px] h-[40px] py-2 hover:text-white ease-in duration-200 rounded-full ' fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                   </svg>

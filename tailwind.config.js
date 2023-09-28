@@ -53,7 +53,7 @@ module.exports = {
         fontWeight: '600',
       }],
 
-      'proHeading': ['18px', {
+      'proHeading': ['16px', {
         lineHeight: '20px',
         fontWeight: '700',
       }],
@@ -103,7 +103,7 @@ module.exports = {
         lineHeight: '1em',        
         fontWeight: '400',
       }],
-      'largeHeading': ['112px', {
+      'largeHeading': ['126px', {
         lineHeight: '0.987013em',
         fontWeight: '400',
         fontStyle: 'normal',
@@ -192,6 +192,14 @@ module.exports = {
       'Sort': ['12px', {
         lineHeight: '1.16667em',
         fontWeight: '900',
+        textTransform: 'uppercase',
+        textColor: '#000000',
+        
+        
+      }],
+      'Pricing': ['18px', {
+        lineHeight: '1.16667em',
+        fontWeight: '700',
         textTransform: 'uppercase',
         textColor: '#000000',
         

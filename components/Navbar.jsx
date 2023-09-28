@@ -311,7 +311,7 @@ export default function Example() {
                             <Popover.Button
                               className={classNames(
                                 open
-                                  ? 'border-white text-slate-50'
+                                  ? 'border-white text-slate-50 '
                                   : 'border-transparent text-white hover:text-slate-300',
                                 'relative z-10 -mb-px outline-none flex items-center border-b-2 pt-px text-baseBtn  transition-colors duration-200 ease-out'
                               )}
@@ -413,7 +413,7 @@ export default function Example() {
 
               <div className="ml-auto flex items-center">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                  <a href="#" className="text-base  text-white hover:text-slate-300">
+                  <a href="#" className="text-base  text-white hover:text-slate-300 hover:underline-offset-1 ">
                     Sign in
                   </a>
                   <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
