@@ -43,13 +43,13 @@ const ProductList = () => {
   ]
   
   return (
-    <div className='exploreCollectionSec pb-12 lg:pb-16 bg-white'>
+    <div className='exploreCollectionSec pb-12 lg:pb-16  bg-white'>
             <div className='min-h-screen flex bg-gray-100 bg-white'>
             <div className='w-1/2 flex bg-white' style={exploreCollectionImgBanner}>
 
             </div>
-            <div className="w-1/2  border-gray-900 bg-[url('https://abdulk30.sg-host.com/maximus/wp-content/uploads/2023/06/Saint-maximus-logo-watermark.png')] flex px-20 lg:px-9 border border-gray-200/25  " >
-      <div className='flex flex-col justify-around '>
+            <div className="w-1/2   border-gray-900 border-t border-right bg-[url('https://abdulk30.sg-host.com/maximus/wp-content/uploads/2023/06/Saint-maximus-logo-watermark.png')] flex px-20 lg:px-9 border border-gray-200/25  " >
+      <div className='flex flex-col justify-around ml-12'>
       <div className='section_subHeading_start flex flex-col justify-between'>
       <p className='section_subHeading text-sm mb-2'>Explore Our</p>
       <h2 className='section_heading text-sm-xs mt-2'>SAINT MAXIMUS <br></br>COLLECTION</h2>

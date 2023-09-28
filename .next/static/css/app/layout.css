@@ -823,6 +823,9 @@ video {
 .ml-1{
   margin-left: 0.25rem;
 }
+.ml-12{
+  margin-left: 3rem;
+}
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -2005,9 +2008,9 @@ font-family: flood-std,sans-serif !important;
 .section_abt_desc {
   text-align: left;
 
-    font-size: 21px;
+    font-size: 17px;
   font-weight: 400;
-  font-style: normal;
+
   letter-spacing: 0px;
 }
 .section_quote_sign{
